@@ -117,7 +117,7 @@ backup_scheme_deps:
   ftps:
     - lftp
   gs:
-    - python{{ system_python_version }}-boto
+    - python{{ system_python_version }}-boto3
   rsync:
     - rsync
   mega:
@@ -126,7 +126,7 @@ backup_scheme_deps:
     - python{{ system_python_version }}-requests
     - python{{ system_python_version }}-requests-oauthlib
   s3:
-    - python{{ system_python_version }}-boto
+    - python{{ system_python_version }}-boto3
   scp:
     - python{{ system_python_version }}-paramiko
   sftp:
